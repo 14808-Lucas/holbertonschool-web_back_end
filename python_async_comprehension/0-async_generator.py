@@ -3,7 +3,7 @@
 numbers, waiting one second before each one."""
 import asyncio
 import random
-from typing import Generator
+from typing import AsyncGenerator
 
 
 async def async_generator() -> AsyncGenerator[float, None]:
