@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""This module provides an asynchronous generator that yields ten random
+"""The module provides an asynchronous generator that yields ten random
 numbers, waiting one second before each one."""
 import asyncio
 import random
