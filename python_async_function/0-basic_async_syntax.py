@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """This module provides an asynchronous coroutine that waits for a
 random delay and then returns how long it waited."""
+
+
 import asyncio
 import random
+
 
 async def wait_random(max_delay: int = 10) -> float:
     """Wait for a random float delay between 0 and max_delay seconds
